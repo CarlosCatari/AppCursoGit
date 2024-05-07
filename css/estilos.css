@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+#profito{
+	align-items: center;
+	position: absolute;
+}
+
+body{
+	background-image: url("../img/galaxy.gif");
+	background-repeat: repeat;
+    padding: 5px 100px;
+    text-align: center;
+    font-family: "MS Serif", "New York", serif;
+}
+
+h1{
+	font-family: Baskerville, "Palatino Linotype", "Times New Roman", "serif";
+    text-align: center;
+    font-size: 70px;
+	margin: 20px 0px;
+	-webkit-text-fill-color: black ;
+	-webkit-text-stroke: 2px cyan;
+}
+h1:hover{
+    font-size: 72px;
+	text-shadow: -4px -3px 10px cyan;
+}
+
+.sistema{
+	width: 800px;
+	height: 550px;
+}
+
+h2{
+	font-family: Baskerville, "Palatino Linotype", "Times New Roman", "serif";
+    text-align: left;
+    font-size: 55px;
+	margin: 20px 0px;
+	-webkit-text-fill-color: black ;
+	-webkit-text-stroke: 2px cyan;
+}
+h2:hover{
+    text-shadow: -4px -3px 10px cyan;
+	font-size: 54px;
+}
+
+h3{
+	font-family: Baskerville, "Palatino Linotype", "Times New Roman", "serif";
+    text-align: left;
+    color: #F00;
+    font-size: 24px;
+	margin: 0px;
+    border-color: #F00;
+    border-bottom-style: solid;
+
+}
+h3:hover{
+    font-size: 29px;
+	text-shadow: -1px -1px 1px cyan;
+    border-color: cyan;
+    border-bottom-style: solid;
+	-webkit-text-fill-color: black ;
+	-webkit-text-stroke: 1px cyan;
+}
+p{
+	color:#6CC;
+	text-align:justify;
+	font-size:16px;
+}
+p:hover{
+	text-shadow: -0.5px 0px 1px cyan;
+}
+
+ul li{
+	color:#6CC;
+	text-align:justify;
+	font-size:16px;
+}
+ul li:hover{
+	text-shadow: -0.5px 0px 1px cyan;
+}
+
+.planeta{
+	width: 440px;
+	height: 440px;
+}
+.planeta:hover {
+    box-shadow: 0 0 60px cyan;
+	border-radius:100%;
+	transform: rotate(2deg);
+}
+
+table {
+    width: 100%;
+    color: #6CC;
+    text-align: justify;
+    font-size: 16px;
+}
+table:hover{
+	text-shadow: -0.5px 0px 1px cyan;
+}
+
+.datatable {
+    width: 70%;
+    color: #6CC;
+    text-align: justify;
+    font-size: 16px;
+}
+button{
+	height: 40px;
+	width: 113px;
+	margin: 4px;
+	background-color:cyan;
+	border: cyan;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+button:hover{
+    box-shadow: 0 0 20px cyan, 0 0 50px cyan;
+    font-weight: bolder;
+}
+
+.imgmercu{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	gap: 5px;
+}
+.imgmercu img{
+	height: 100%;
+	flex:1;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 10px;
+	transition: all 0.3s;
+	opacity: 30%;
+}
+.imgmercu img:hover{
+	flex:4;
+	opacity: 100%;
+}
